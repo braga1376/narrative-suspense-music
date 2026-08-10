@@ -1,0 +1,304 @@
+{
+  "description": "A young girl and her dog venture into a frozen mountain range to perform a mystical ritual. By extracting a glowing spark from a massive stone giant and placing it in her staff, she successfully transforms the winter wasteland into a vibrant spring landscape.",
+  "characters": [
+    {
+      "character_id": 1,
+      "name": "Spring Girl",
+      "description": "A young girl with dark blue braided hair, wearing a red tunic, a dark grey scarf, and carrying a large, gnarled wooden staff."
+    },
+    {
+      "character_id": 2,
+      "name": "Scruffy Dog",
+      "description": "A small, scruffy grey dog with a red collar who helps the girl navigate the dangerous terrain."
+    },
+    {
+      "character_id": 3,
+      "name": "Stone Giants",
+      "description": "Colossal, multi-legged ancient beings made of rock and ice that inhabit the foggy mountain peaks and transform the land as they move."
+    }
+  ],
+  "threads": [
+    {
+      "thread_id": 1,
+      "description": "The girl attempts to perform a magic ritual by harvesting energy from a stone giant to end the eternal winter and bring spring to the valley.",
+      "importance": 9.5
+    },
+    {
+      "thread_id": 2,
+      "description": "The girl and her dog try to navigate the crumbling, shifting terrain to reach the peak safely as the massive giants awaken and move.",
+      "importance": 8.0
+    }
+  ],
+  "events": [
+    {
+      "event_id": 1,
+      "start_time": 0.0,
+      "end_time": 22.0,
+      "thread_ids": [],
+      "description": "Close-up shots of frozen plants and icicles establish the harsh, winter environment.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 2,
+      "start_time": 22.0,
+      "end_time": 43.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "Spring Girl walks across a desolate mountain ridge high above a sea of clouds.",
+      "characters_present": [
+        1
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 3,
+      "start_time": 43.0,
+      "end_time": 70.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "Spring Girl plays with Scruffy Dog, who finds a stick on the path.",
+      "characters_present": [
+        1,
+        2
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 4,
+      "start_time": 70.0,
+      "end_time": 94.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "Spring Girl and Scruffy Dog walk toward a thick, foggy forest as the terrain becomes more difficult.",
+      "characters_present": [
+        1,
+        2
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 5,
+      "start_time": 94.0,
+      "end_time": 128.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "The pair enters a frozen forest filled with giant icicles and ancient, stone-like structures.",
+      "characters_present": [
+        1,
+        2
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 6,
+      "start_time": 128.0,
+      "end_time": 158.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "A massive tremor shakes the ground as the leg of a gargantuan stone giant descends from the fog.",
+      "characters_present": [
+        1,
+        2,
+        3
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "high",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 7,
+      "start_time": 158.0,
+      "end_time": 188.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "Several colossal stone giants begin to wake and move through the forest, towering over the landscape.",
+      "characters_present": [
+        1,
+        2,
+        3
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 8,
+      "start_time": 188.0,
+      "end_time": 218.0,
+      "thread_ids": [
+        1,
+        2
+      ],
+      "description": "Spring Girl stops to observe the glowing, musical energy pulses moving within the body of a passing giant.",
+      "characters_present": [
+        1,
+        2,
+        3
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 9,
+      "start_time": 218.0,
+      "end_time": 242.0,
+      "thread_ids": [
+        1,
+        2
+      ],
+      "description": "Spring Girl reaches out and successfully captures a glowing blue spirit of spring energy from the stone giant.",
+      "characters_present": [
+        1,
+        2,
+        3
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 10,
+      "start_time": 242.0,
+      "end_time": 278.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "The environment collapses and shifts dangerously as the awakened giants move, forcing the girl and dog to flee.",
+      "characters_present": [
+        1,
+        2,
+        3
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "high",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 11,
+      "start_time": 278.0,
+      "end_time": 300.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "Spring Girl and Scruffy Dog are cornered at a cliff edge as a giant's massive foot looms directly above them.",
+      "characters_present": [
+        1,
+        2,
+        3
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "frantic",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 12,
+      "start_time": 300.0,
+      "end_time": 332.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "Spring Girl uses the captured energy to activate her staff, creating a wave of warmth that stops the giant's foot.",
+      "characters_present": [
+        1,
+        2,
+        3
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "high",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 13,
+      "start_time": 332.0,
+      "end_time": 367.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "The magical energy ripples through the valley, causing the stone giants to transform and release clouds of spring.",
+      "characters_present": [
+        1,
+        3
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 14,
+      "start_time": 367.0,
+      "end_time": 394.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "The landscape rapidly changes as the ice melts and vibrant flowers begin to bloom across the valley floor.",
+      "characters_present": [
+        1,
+        2
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 15,
+      "start_time": 394.0,
+      "end_time": 417.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "Spring Girl and Scruffy Dog walk through the now lush, green valley, having successfully brought spring to the land.",
+      "characters_present": [
+        1,
+        2
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 16,
+      "start_time": 417.0,
+      "end_time": 464.0,
+      "thread_ids": [],
+      "description": "The film concludes with the title card and final production credits over a static background.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "static",
+      "dominant_character_id": null
+    }
+  ]
+}

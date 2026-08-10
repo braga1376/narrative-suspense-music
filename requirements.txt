@@ -1,0 +1,6 @@
+google-genai
+pydantic>=2.0
+matplotlib
+numpy
+scipy
+music21

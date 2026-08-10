@@ -1,0 +1,285 @@
+[
+  {
+    "event_id": 1,
+    "start_time": 0.0,
+    "end_time": 22.0,
+    "global_suspense": 0.0,
+    "thread_suspense": {},
+    "is_turning_point": false
+  },
+  {
+    "event_id": 2,
+    "start_time": 22.0,
+    "end_time": 43.0,
+    "global_suspense": 0.8,
+    "thread_suspense": {
+      "2": {
+        "suspense": 0.8,
+        "imminence": 0.1,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 3,
+    "start_time": 43.0,
+    "end_time": 70.0,
+    "global_suspense": 1.6,
+    "thread_suspense": {
+      "2": {
+        "suspense": 1.6,
+        "imminence": 0.2,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 4,
+    "start_time": 70.0,
+    "end_time": 94.0,
+    "global_suspense": 2.4,
+    "thread_suspense": {
+      "2": {
+        "suspense": 2.4,
+        "imminence": 0.3,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 5,
+    "start_time": 94.0,
+    "end_time": 128.0,
+    "global_suspense": 3.2,
+    "thread_suspense": {
+      "2": {
+        "suspense": 3.2,
+        "imminence": 0.4,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 6,
+    "start_time": 128.0,
+    "end_time": 158.0,
+    "global_suspense": 5.2,
+    "thread_suspense": {
+      "2": {
+        "suspense": 5.2,
+        "imminence": 0.65,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": true
+  },
+  {
+    "event_id": 7,
+    "start_time": 158.0,
+    "end_time": 188.0,
+    "global_suspense": 4.8,
+    "thread_suspense": {
+      "2": {
+        "suspense": 4.8,
+        "imminence": 0.6,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 8,
+    "start_time": 188.0,
+    "end_time": 218.0,
+    "global_suspense": 5.6,
+    "thread_suspense": {
+      "1": {
+        "suspense": 1.5833333333333333,
+        "imminence": 0.16666666666666666,
+        "importance": 9.5,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      },
+      "2": {
+        "suspense": 5.6,
+        "imminence": 0.7,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 9,
+    "start_time": 218.0,
+    "end_time": 242.0,
+    "global_suspense": 6.4,
+    "thread_suspense": {
+      "1": {
+        "suspense": 4.116666666666667,
+        "imminence": 0.43333333333333335,
+        "importance": 9.5,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      },
+      "2": {
+        "suspense": 6.4,
+        "imminence": 0.8,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": true
+  },
+  {
+    "event_id": 10,
+    "start_time": 242.0,
+    "end_time": 278.0,
+    "global_suspense": 7.2,
+    "thread_suspense": {
+      "1": {
+        "suspense": 2.7866666666666666,
+        "imminence": 0.3333333333333333,
+        "importance": 9.5,
+        "foregroundedness": 0.88,
+        "confidence": 1.0
+      },
+      "2": {
+        "suspense": 7.2,
+        "imminence": 0.9,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 11,
+    "start_time": 278.0,
+    "end_time": 300.0,
+    "global_suspense": 8.0,
+    "thread_suspense": {
+      "1": {
+        "suspense": 2.4522666666666666,
+        "imminence": 0.3333333333333333,
+        "importance": 9.5,
+        "foregroundedness": 0.7744,
+        "confidence": 1.0
+      },
+      "2": {
+        "suspense": 8.0,
+        "imminence": 1.0,
+        "importance": 8.0,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 12,
+    "start_time": 300.0,
+    "end_time": 332.0,
+    "global_suspense": 7.04,
+    "thread_suspense": {
+      "1": {
+        "suspense": 6.175,
+        "imminence": 0.65,
+        "importance": 9.5,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      },
+      "2": {
+        "suspense": 7.04,
+        "imminence": 1.0,
+        "importance": 8.0,
+        "foregroundedness": 0.88,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": true
+  },
+  {
+    "event_id": 13,
+    "start_time": 332.0,
+    "end_time": 367.0,
+    "global_suspense": 6.333333333333333,
+    "thread_suspense": {
+      "1": {
+        "suspense": 6.333333333333333,
+        "imminence": 0.6666666666666666,
+        "importance": 9.5,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 14,
+    "start_time": 367.0,
+    "end_time": 394.0,
+    "global_suspense": 7.916666666666667,
+    "thread_suspense": {
+      "1": {
+        "suspense": 7.916666666666667,
+        "imminence": 0.8333333333333334,
+        "importance": 9.5,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 15,
+    "start_time": 394.0,
+    "end_time": 417.0,
+    "global_suspense": 9.5,
+    "thread_suspense": {
+      "1": {
+        "suspense": 9.5,
+        "imminence": 1.0,
+        "importance": 9.5,
+        "foregroundedness": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  },
+  {
+    "event_id": 16,
+    "start_time": 417.0,
+    "end_time": 464.0,
+    "global_suspense": 8.36,
+    "thread_suspense": {
+      "1": {
+        "suspense": 8.36,
+        "imminence": 1.0,
+        "importance": 9.5,
+        "foregroundedness": 0.88,
+        "confidence": 1.0
+      }
+    },
+    "is_turning_point": false
+  }
+]

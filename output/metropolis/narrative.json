@@ -1,0 +1,789 @@
+{
+  "description": "In the futuristic city of Metropolis, the wealthy Freder discovers the harsh life of the workers below and is captivated by their spiritual leader, Maria. He then uncovers a plot by the scientist Rotwang to replace Maria with a robot duplicate designed to incite chaos and destroy the societal structure. Freder ultimately acts as a mediator to bring the classes together, fulfilling the prophecy of the heart connecting the head and hands.",
+  "characters": [
+    {
+      "character_id": 1,
+      "name": "Freder",
+      "description": "A young man with light, styled hair, often seen in high-society clothing like white shirts and breeches."
+    },
+    {
+      "character_id": 2,
+      "name": "Joh Fredersen",
+      "description": "An older man in a business suit, characterized by his stern appearance and his role as the master of Metropolis."
+    },
+    {
+      "character_id": 3,
+      "name": "Maria",
+      "description": "A young woman with a gentle face and curly hair, often seen wearing simple dresses and acting as a teacher or preacher."
+    },
+    {
+      "character_id": 4,
+      "name": "Rotwang",
+      "description": "An elderly scientist with wild, messy white hair, wearing a dark lab coat and possessing a mechanical hand."
+    },
+    {
+      "character_id": 5,
+      "name": "The Machine-Man",
+      "description": "A shiny, humanoid robot that later takes on the physical likeness of Maria."
+    },
+    {
+      "character_id": 6,
+      "name": "Grot",
+      "description": "A robust, bearded worker and guardian of the Heart Machine, seen in rough, dark work clothes."
+    },
+    {
+      "character_id": 7,
+      "name": "Josaphat",
+      "description": "A man in a dark suit, initially Joh Fredersen's assistant, who later aids Freder."
+    },
+    {
+      "character_id": 8,
+      "name": "The Thin Man",
+      "description": "A tall, gaunt man in a dark suit and hat who acts as a spy for Joh Fredersen."
+    }
+  ],
+  "threads": [
+    {
+      "thread_id": 1,
+      "description": "Freder's journey to understand the plight of the workers and his pursuit of Maria to become their mediator.",
+      "importance": 9.5
+    },
+    {
+      "thread_id": 2,
+      "description": "Rotwang's plan to destroy Metropolis and Joh Fredersen by replacing Maria with a robot duplicate to incite a violent uprising.",
+      "importance": -8.5
+    },
+    {
+      "thread_id": 3,
+      "description": "Joh Fredersen's attempts to maintain total control over Metropolis and use the workers' dissatisfaction to justify a crackdown.",
+      "importance": -7.0
+    },
+    {
+      "thread_id": 4,
+      "description": "The workers' struggle against the dehumanizing conditions of the machine city, leading to their revolt against the machines.",
+      "importance": 6.0
+    },
+    {
+      "thread_id": 5,
+      "description": "The survival and rescue of the children from the underground city during the massive flood caused by the machine destruction.",
+      "importance": 8.0
+    },
+    {
+      "thread_id": 6,
+      "description": "The final reconciliation between Joh Fredersen and the workers, brokered by Freder as the symbolic 'heart'.",
+      "importance": 10.0
+    }
+  ],
+  "events": [
+    {
+      "event_id": 1,
+      "start_time": 0.0,
+      "end_time": 138.0,
+      "thread_ids": [],
+      "description": "Opening credits and a brief explanation of the film's restoration and missing footage are shown.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "static",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 2,
+      "start_time": 138.0,
+      "end_time": 250.0,
+      "thread_ids": [],
+      "description": "Cast and production credits are presented along with information about the original novel by Thea von Harbou.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "static",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 3,
+      "start_time": 250.0,
+      "end_time": 262.0,
+      "thread_ids": [
+        4
+      ],
+      "description": "An intertitle marks the shift change in the underground machine halls.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "static",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 4,
+      "start_time": 262.0,
+      "end_time": 297.0,
+      "thread_ids": [
+        4
+      ],
+      "description": "Exhausted workers march in rigid formation as they transition between work shifts.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 5,
+      "start_time": 297.0,
+      "end_time": 329.0,
+      "thread_ids": [
+        4
+      ],
+      "description": "The workers crowd into a large lift to descend into the lower depths of the city.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 6,
+      "start_time": 329.0,
+      "end_time": 342.0,
+      "thread_ids": [
+        4
+      ],
+      "description": "An intertitle explains that deep below the surface lies the Workers' City.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "static",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 7,
+      "start_time": 342.0,
+      "end_time": 368.0,
+      "thread_ids": [
+        4
+      ],
+      "description": "The vast residential blocks and industrial skyline of the underground city are revealed.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 8,
+      "start_time": 368.0,
+      "end_time": 410.0,
+      "thread_ids": [
+        4
+      ],
+      "description": "Workers trudge back to their dwellings in the subterranean complex.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 9,
+      "start_time": 410.0,
+      "end_time": 428.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "An intertitle introduces the Club of the Sons, high above the surface.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "static",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 10,
+      "start_time": 428.0,
+      "end_time": 461.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "Freder and other members of the city's elite engage in athletic competitions in a stadium.",
+      "characters_present": [
+        1
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "high",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 11,
+      "start_time": 461.0,
+      "end_time": 489.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "An intertitle describes the mirace of the Eternal Gardens created for the sons of Metropolis.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "static",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 12,
+      "start_time": 489.0,
+      "end_time": 603.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "Freder relaxes and plays with socialites in the lush, artificial paradise of the Eternal Gardens.",
+      "characters_present": [
+        1
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 13,
+      "start_time": 603.0,
+      "end_time": 627.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "Maria enters the gardens with a group of ragged children, shocking the elite guests.",
+      "characters_present": [
+        1,
+        3
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 14,
+      "start_time": 627.0,
+      "end_time": 674.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "Maria shows the children to the rich socialites and tells them to look upon their brothers.",
+      "characters_present": [
+        1,
+        3
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 15,
+      "start_time": 674.0,
+      "end_time": 828.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "After Maria and the children are escorted out, Freder is captivated and haunted by her presence.",
+      "characters_present": [
+        1,
+        3
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 16,
+      "start_time": 828.0,
+      "end_time": 858.0,
+      "thread_ids": [
+        1,
+        4
+      ],
+      "description": "Freder descends into the machine halls to find the girl and witnesses the harsh labor conditions.",
+      "characters_present": [
+        1
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 17,
+      "start_time": 858.0,
+      "end_time": 893.0,
+      "thread_ids": [
+        1,
+        4
+      ],
+      "description": "Freder watches in horror as a worker collapses at the gauges and the machinery malfunctions.",
+      "characters_present": [
+        1
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 18,
+      "start_time": 893.0,
+      "end_time": 927.0,
+      "thread_ids": [
+        1,
+        4
+      ],
+      "description": "The machinery explodes, and Freder hallucinates it as a devouring Moloch feeding on workers.",
+      "characters_present": [
+        1
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "high",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 19,
+      "start_time": 927.0,
+      "end_time": 1081.0,
+      "thread_ids": [
+        4
+      ],
+      "description": "Rescue teams carry away the bodies while Freder watches, deeply disturbed by the sacrifice of life.",
+      "characters_present": [
+        1
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "frantic",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 20,
+      "start_time": 1081.0,
+      "end_time": 1148.0,
+      "thread_ids": [
+        3
+      ],
+      "description": "A panorama of the sprawling city shows Metropolis at night with its towering skyscrapers.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 21,
+      "start_time": 1148.0,
+      "end_time": 1171.0,
+      "thread_ids": [
+        3
+      ],
+      "description": "Joh Fredersen manages the city from his high-tech office, emphasizing his absolute control.",
+      "characters_present": [
+        2,
+        7
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 2
+    },
+    {
+      "event_id": 22,
+      "start_time": 1171.0,
+      "end_time": 1204.0,
+      "thread_ids": [
+        3,
+        4
+      ],
+      "description": "Grot reports the accident to Joh, revealing secret maps found on the injured workers.",
+      "characters_present": [
+        2,
+        6,
+        7
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 2
+    },
+    {
+      "event_id": 23,
+      "start_time": 1204.0,
+      "end_time": 1224.0,
+      "thread_ids": [
+        3
+      ],
+      "description": "Joh Fredersen fires Josaphat for failing to discover the maps before Grot reported them.",
+      "characters_present": [
+        2,
+        7
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 2
+    },
+    {
+      "event_id": 24,
+      "start_time": 1224.0,
+      "end_time": 1291.0,
+      "thread_ids": [
+        1,
+        3
+      ],
+      "description": "Freder arrives at his father's office to report the explosion and confront him about worker safety.",
+      "characters_present": [
+        1,
+        2
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 25,
+      "start_time": 1291.0,
+      "end_time": 1375.0,
+      "thread_ids": [
+        3
+      ],
+      "description": "Joh Fredersen explains to Freder that his city is built for the top, not the workers below.",
+      "characters_present": [
+        1,
+        2
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 2
+    },
+    {
+      "event_id": 26,
+      "start_time": 1375.0,
+      "end_time": 1449.0,
+      "thread_ids": [
+        1
+      ],
+      "description": "Freder leaves his father's office and meets Josaphat, asking him to help him understand the city.",
+      "characters_present": [
+        1,
+        7
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 27,
+      "start_time": 1449.0,
+      "end_time": 1535.0,
+      "thread_ids": [
+        1,
+        4
+      ],
+      "description": "Freder returns to the depths and swaps clothes with worker No. 11811 to take his place.",
+      "characters_present": [
+        1
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 28,
+      "start_time": 1535.0,
+      "end_time": 1600.0,
+      "thread_ids": [
+        3
+      ],
+      "description": "Joh Fredersen hires the Thin Man to spy on his son and keep him informed of every step.",
+      "characters_present": [
+        2,
+        8
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 2
+    },
+    {
+      "event_id": 29,
+      "start_time": 1600.0,
+      "end_time": 1693.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "Fredersen visits the strange house of Rotwang the inventor in the middle of Metropolis.",
+      "characters_present": [
+        2,
+        4
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 4
+    },
+    {
+      "event_id": 30,
+      "start_time": 1693.0,
+      "end_time": 1751.0,
+      "thread_ids": [
+        2,
+        3,
+        5
+      ],
+      "description": "Rotwang unveils his great invention, the Machine-Man, which will replace a living human.",
+      "characters_present": [
+        2,
+        4,
+        5
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 4
+    },
+    {
+      "event_id": 31,
+      "start_time": 1751.0,
+      "end_time": 2085.0,
+      "thread_ids": [
+        1,
+        4
+      ],
+      "description": "Freder struggles to keep up with the punishing rhythm of the Dial Machine as the spy watches him.",
+      "characters_present": [
+        1,
+        8
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "high",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 32,
+      "start_time": 2085.0,
+      "end_time": 2281.0,
+      "thread_ids": [
+        1,
+        3
+      ],
+      "description": "The Thin Man begins trailing Freder's contacts and trying to locate his position in the underground.",
+      "characters_present": [
+        1,
+        8
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 33,
+      "start_time": 2281.0,
+      "end_time": 2520.0,
+      "thread_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "Maria preaches to the workers in the catacombs while Joh and Rotwang watch in secret.",
+      "characters_present": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 34,
+      "start_time": 2520.0,
+      "end_time": 2754.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "Rotwang kidnaps Maria in the catacombs to use her likeness for the Machine-Man.",
+      "characters_present": [
+        3,
+        4
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "high",
+      "dominant_character_id": 4
+    },
+    {
+      "event_id": 35,
+      "start_time": 2754.0,
+      "end_time": 2923.0,
+      "thread_ids": [
+        2
+      ],
+      "description": "Intertitles transition to the experimental procedure of transferring Maria's identity to the robot.",
+      "characters_present": [],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "static",
+      "dominant_character_id": null
+    },
+    {
+      "event_id": 36,
+      "start_time": 2923.0,
+      "end_time": 3188.0,
+      "thread_ids": [
+        2,
+        5
+      ],
+      "description": "Rotwang completes the transformation, giving the Machine-Man the physical likeness of Maria.",
+      "characters_present": [
+        4,
+        5
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "high",
+      "dominant_character_id": 4
+    },
+    {
+      "event_id": 37,
+      "start_time": 3188.0,
+      "end_time": 3373.0,
+      "thread_ids": [
+        2,
+        4,
+        5
+      ],
+      "description": "The robot Maria begins her task of inciting the workers to a violent uprising.",
+      "characters_present": [
+        5
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "moderate",
+      "dominant_character_id": 5
+    },
+    {
+      "event_id": 38,
+      "start_time": 3373.0,
+      "end_time": 3661.0,
+      "thread_ids": [
+        1,
+        3
+      ],
+      "description": "Freder falls sick and has a terrifying hallucination of Death presiding over the city.",
+      "characters_present": [
+        1
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "high",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 39,
+      "start_time": 3661.0,
+      "end_time": 4554.0,
+      "thread_ids": [
+        2,
+        4,
+        5
+      ],
+      "description": "The robot Maria leads the workers into a frenzy, causing them to attack and destroy the machines.",
+      "characters_present": [
+        5,
+        6
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "frantic",
+      "dominant_character_id": 5
+    },
+    {
+      "event_id": 40,
+      "start_time": 4554.0,
+      "end_time": 5452.0,
+      "thread_ids": [
+        5,
+        1
+      ],
+      "description": "As the lower city floods, Freder and the real Maria work together to save the children from the rising water.",
+      "characters_present": [
+        1,
+        3
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "frantic",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 41,
+      "start_time": 5452.0,
+      "end_time": 5754.0,
+      "thread_ids": [
+        4,
+        2
+      ],
+      "description": "The workers discover the robot Maria's betrayal and capture her, burning her at the stake.",
+      "characters_present": [
+        5
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "frantic",
+      "dominant_character_id": 5
+    },
+    {
+      "event_id": 42,
+      "start_time": 5754.0,
+      "end_time": 6291.0,
+      "thread_ids": [
+        1,
+        2
+      ],
+      "description": "Rotwang tries to capture Maria again on the cathedral roof, and Freder fights him to save her.",
+      "characters_present": [
+        1,
+        3,
+        4
+      ],
+      "is_turning_point": false,
+      "disallows_thread_ids": [],
+      "visual_activity": "frantic",
+      "dominant_character_id": 1
+    },
+    {
+      "event_id": 43,
+      "start_time": 6291.0,
+      "end_time": 6534.0,
+      "thread_ids": [
+        6
+      ],
+      "description": "Freder mediates the final reconciliation between Joh Fredersen and Grot, uniting brain and hands.",
+      "characters_present": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "is_turning_point": true,
+      "disallows_thread_ids": [],
+      "visual_activity": "low",
+      "dominant_character_id": 1
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Narrative Suspense as Musical Tension — Supplementary Material</title>
+<meta name="description" content="Generated film scores, code, and narrative structures for the MM '26 paper 'Narrative Suspense as Musical Tension: Composing Film Music From Video'.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,500;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#F2EFE9;
+    --ink-dim:#9C978D;
+    --ground:#14161A;
+    --ground-lift:#1C1F25;
+    --rule:#2C3039;
+    --spring:#4C72B0;
+    --easy:#DD8452;
+    --metro:#55A868;
+    --measure:64rem;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--ground);
+    color:var(--ink);
+    font-family:Spectral,Georgia,serif;
+    font-weight:300;
+    font-size:1.0625rem;
+    line-height:1.65;
+  }
+  .wrap{max-width:var(--measure);margin:0 auto;padding:0 1.5rem;}
+
+  /* ---- masthead ---- */
+  header{padding:5rem 0 3rem;border-bottom:1px solid var(--rule);}
+  .eyebrow{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--ink-dim);margin:0 0 1.5rem;
+  }
+  h1{
+    font-size:clamp(1.9rem,4.4vw,3.1rem);
+    font-weight:500;line-height:1.12;margin:0 0 .6rem;letter-spacing:-.01em;
+  }
+  .subtitle{font-style:italic;color:var(--ink-dim);margin:0 0 2rem;font-size:1.05rem;}
+  .authors{margin:0 0 .4rem;}
+  .venue{color:var(--ink-dim);font-size:.95rem;margin:0;}
+
+  .links{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:2.25rem;}
+  .links a{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.78rem;letter-spacing:.04em;
+    color:var(--ink);text-decoration:none;
+    border:1px solid var(--rule);border-radius:2px;
+    padding:.55rem .9rem;transition:border-color .18s,background .18s;
+  }
+  .links a:hover,.links a:focus-visible{border-color:var(--ink-dim);background:var(--ground-lift);}
+
+  /* ---- prose ---- */
+  section{padding:3.5rem 0;border-bottom:1px solid var(--rule);}
+  h2{
+    font-size:1.4rem;font-weight:500;margin:0 0 1rem;letter-spacing:-.005em;
+  }
+  p{margin:0 0 1rem;max-width:44rem;}
+  p:last-child{margin-bottom:0;}
+  .note{color:var(--ink-dim);font-size:.94rem;}
+
+  /* ---- film entries ---- */
+  .film{padding:3.5rem 0;border-bottom:1px solid var(--rule);}
+  .film-head{display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:.5rem;}
+  .film-title{font-size:1.5rem;font-weight:500;font-style:italic;margin:0;}
+  .film-meta{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.75rem;color:var(--ink-dim);letter-spacing:.04em;
+  }
+  .film-desc{color:var(--ink-dim);margin-bottom:1.75rem;max-width:44rem;}
+
+  video{
+    width:100%;display:block;background:#000;
+    border:1px solid var(--rule);border-radius:2px;
+  }
+
+  /* signature: the suspense trace, echoing Figure 2 of the paper */
+  .trace{margin-top:1.25rem;}
+  .trace svg{width:100%;height:56px;display:block;overflow:visible;}
+  .trace-label{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-dim);margin-top:.5rem;
+  }
+  .trace path{fill:none;stroke-width:2;stroke-linecap:square;}
+  #t-spring path{stroke:var(--spring);}
+  #t-easy path{stroke:var(--easy);}
+  #t-metro path{stroke:var(--metro);}
+  .trace .base{stroke:var(--rule);stroke-width:1;}
+
+  footer{padding:3.5rem 0 5rem;color:var(--ink-dim);font-size:.92rem;}
+  footer a{color:var(--ink);}
+  code{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.86em;}
+
+  @media (prefers-reduced-motion:no-preference){
+    .trace path:not(.base){
+      stroke-dasharray:1000;stroke-dashoffset:1000;
+      animation:draw 1.6s ease-out forwards;
+    }
+    @keyframes draw{to{stroke-dashoffset:0;}}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Supplementary material</p>
+    <h1>Narrative Suspense as Musical Tension</h1>
+    <p class="subtitle">Composing Film Music From Video</p>
+    <p class="authors">Francisco Braga, Nuno Correia, Roger B. Dannenberg, Gilberto Bernardes</p>
+    <p class="venue">ACM Multimedia 2026 · Rio de Janeiro</p>
+    <nav class="links">
+      <a href="https://doi.org/10.1145/3767308.3835878">Paper (DOI)</a>
+      <a href="https://github.com/USER/REPO">Code</a>
+    </nav>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>What this is</h2>
+    <p>The system extracts narrative structure from a film — characters, story threads, events — and computes a suspense value for each event. It then composes a music whose musical tension is aligned to that suspense curve through multi-objective evolutionary optimization.</p>
+    <p>The excerpts below are the three used in the listening study reported in the paper. Each is scored by the full system. All output is piano, rendered from MIDI with a single instrument; the paper's claim concerns the alignment between music and narrative, not the realism of the rendering.</p>
+    <p class="note">The suspense trace under each clip is the curve the score was aligned to, plotted over the excerpt's events.</p>
+  </div>
+</section>
+
+<div id="scores"></div>
+
+<article class="film">
+  <div class="wrap">
+    <div class="film-head">
+      <h2 class="film-title">Metropolis</h2>
+      <span class="film-meta">1927 · Fritz Lang · events 21–24 · ~143 s</span>
+    </div>
+    <p class="film-desc">The aftermath of the machine explosion and Freder's confrontation with his father. The strongest alignment effect of the three: explicit stakes, a visible turning point, and a shared expectation of where the scene is going.</p>
+    <video controls preload="metadata" poster="media/metropolis-poster.jpg">
+      <source src="media/metropolis.mp4" type="video/mp4">
+      Your browser does not support embedded video. <a href="media/metropolis.mp4">Download the clip</a>.
+    </video>
+    <div class="trace" id="t-metro">
+      <svg viewBox="0 0 800 56" preserveAspectRatio="none" role="img" aria-label="Suspense curve for the Metropolis excerpt: four events rising steadily from 3.4 to 5.5.">
+        <path class="base" d="M0,55 H800"/>
+        <path d="M0,35.0 H129 M129,32.9 H313 M313,30.5 H425 M425,25.8 H800"/>
+      </svg>
+      <p class="trace-label">Suspense · events 21–24</p>
+    </div>
+  </div>
+</article>
+
+<article class="film">
+  <div class="wrap">
+    <div class="film-head">
+      <h2 class="film-title">Easy Street</h2>
+      <span class="film-meta">1917 · Charles Chaplin · public domain · events 34–40 · ~117 s</span>
+    </div>
+    <p class="film-desc">The Bully intimidates the Tramp, and the turning point where the Tramp defeats him. A moderate alignment effect: the stakes are legible, but the comic register leaves some room for interpretation.</p>
+    <video controls preload="metadata" poster="media/easystreet-poster.jpg">
+      <source src="media/easystreet.mp4" type="video/mp4">
+      Your browser does not support embedded video. <a href="media/easystreet.mp4">Download the clip</a>.
+    </video>
+    <div class="trace" id="t-easy">
+      <svg viewBox="0 0 800 56" preserveAspectRatio="none" role="img" aria-label="Suspense curve for the Easy Street excerpt: a rise to a peak of 7.9 at the turning point, then settling around 6.">
+        <path class="base" d="M0,55 H800"/>
+        <path d="M0,32.4 H96 M96,30.2 H226 M226,15.2 H342 M342,25.8 H479 M479,22.2 H622 M622,21.1 H697 M697,23.6 H800"/>
+      </svg>
+      <p class="trace-label">Suspense · events 34–40</p>
+    </div>
+  </div>
+</article>
+
+<article class="film">
+  <div class="wrap">
+    <div class="film-head">
+      <h2 class="film-title">Spring</h2>
+      <span class="film-meta">2019 · Blender Studio · CC BY 4.0 · events 4–7 · ~118 s</span>
+    </div>
+    <p class="film-desc">A journey into a frozen forest and the appearance of the stone giants. In the study, this excerpt showed no significant effect — the narrative is the most ambiguous of the three.</p>
+    <video controls preload="metadata" poster="media/spring-poster.jpg">
+      <source src="media/spring.mp4" type="video/mp4">
+      Your browser does not support embedded video. <a href="media/spring.mp4">Download the clip</a>.
+    </video>
+    <div class="trace" id="t-spring">
+      <svg viewBox="0 0 800 56" preserveAspectRatio="none" role="img" aria-label="Suspense curve for the Spring excerpt: a rise from 2.4 to a peak of 5.2 at the turning point, easing slightly to 4.8.">
+        <path class="base" d="M0,55 H800"/>
+        <path d="M0,39.4 H163 M163,35.9 H393 M393,27.1 H597 M597,28.9 H800"/>
+      </svg>
+      <p class="trace-label">Suspense · events 4–7</p>
+    </div>
+  </div>
+</article>
+
+<section>
+  <div class="wrap">
+    <h2>Repository contents</h2>
+    <p>The repository holds the full pipeline — narrative extraction, the adapted suspense model, the harmony grammar, tension measurement, and the NSGA-II optimization — together with the extracted narrative structures and the generated MIDI for every excerpt, so the composition stage can be re-run without access to the extraction model.</p>
+    <p class="note">Narrative structures are in <code>data/narratives/</code>, generated scores in <code>output/scores/</code>.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><em>Spring</em> © Blender Foundation, released under CC BY 4.0. <em>Easy Street</em> is in the public domain. Excerpts are reproduced here for research demonstration.</p>
+    <p>Questions: <a href="mailto:fma.braga@campus.fct.unl.pt">fma.braga@campus.fct.unl.pt</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

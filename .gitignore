@@ -1,0 +1,24 @@
+# API keys — never commit
+api.py
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Pickled intermediate state — regenerable, and unsafe to load from a stranger
+*.pkl
+output/**/output_pickle/
+
+# Local run artefacts
+output/**/midi/*.mid
+!output/**/midi/full.mid
+!output/**/midi/ablation.mid
+.DS_Store
