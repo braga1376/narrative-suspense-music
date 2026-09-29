@@ -2,7 +2,7 @@
 
 Code and supplementary material for the ACM Multimedia 2026 paper.
 
-**[Generated scores and demo →](https://USER.github.io/REPO)** · [Paper](https://doi.org/10.1145/3767308.3835878)
+**[Demo](https://braga1376.github.io/narrative-suspense-music/)** · [Paper](https://doi.org/10.1145/3767308.3835878)
 
 Francisco Braga, Nuno Correia, Roger B. Dannenberg, Gilberto Bernardes
 
